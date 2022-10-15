@@ -1,0 +1,99 @@
+/* body {
+    
+} */
+
+header {
+    height: 250px;
+    background-color: lightblue;
+}
+h1 {
+    display: flex;
+}
+.items {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.0rem;
+    /* grid-template-areas: "item1, item2, item3";  */
+    
+                           /* "h h h", */
+                        /* "m1 m2 m3", */
+                        /* "f f f"; */
+    
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    /* right now just the items are on a grid.  Do I want the whole page 
+    on the same grid? */
+
+    
+}
+
+/* section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+} */
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.items img {
+    width: 100%;
+    height: auto;
+}
+
+ .items p, h2 {
+    padding: 0 1rem;
+}
+/* use comma to style both p and h2 at once */
+
+.sign-up {
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 1rem;
+    justify-content:space-around;
+    align-content: center;
+    align-self: flex-end;
+
+}
+
+.search input {
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 
+.items h2 {
+    
+} */
+
+/* .a {
+    image
+} */
