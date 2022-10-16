@@ -1,8 +1,4 @@
-// const itemList = document.getElementById('item-list')
-// const cartQty = document.getElementById('cart-qty')
-// const cartTotal = document.getElementById('cart-total')
 
-// console.log(itemList)
 // --------------------------------------------------------------
 // I modified the mood-shop scripts so that I can 
 // easily add more items to my page
@@ -43,3 +39,5 @@ for (let i = 0; i < data.length; i += 1) {
     newDiv.appendChild(button)
 
 }
+// ----------------------------------------------
+// event listeners

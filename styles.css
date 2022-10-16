@@ -2,11 +2,18 @@ body {
    width: 100%; 
    margin: 0;
    font-family: Helvetica Neue;
+   background-color: #dae2d3
+}
+main {
+    background-color: white;
+    padding-bottom: 50px;
+
 }
 
 header {
     height: 300px;
-    background-color: lightblue;
+    /* background-color: white; */
+    /* background-color: #c1cbd6; */
     width: 100%;
     padding: 0;
     /* display:flex;
@@ -21,6 +28,10 @@ h1 {
     height: 150px;
     margin-left: 5%;
     letter-spacing: 0.04em;
+}
+.wrapper {
+    background-color: white;
+    padding: 25px 0 50px 0;
 }
 .topics {
     margin-left: 5%;
@@ -42,22 +53,26 @@ h1 {
     width: 90%;
     margin: auto;
     /* right now just the items are on a grid.  Do I want the whole page 
-    on the same grid? */   
+    on the same grid? */       
 }
 .item {
     display: flex;
     flex-direction: column;
     border: 1px solid;
+   
     justify-content: center;
     align-content: center;
+    
     
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
     list-style-type: none;
-    
+    /* justify-content: space-between; */
+    gap: 50px;   
 }
 
 .items img {
@@ -71,26 +86,45 @@ ul {
 /* use comma to style both p and h2 at once */
 
 .sign-up {
-    background-color: aqua;
-    margin: 48px 18px auto auto;
+    background-color: #c1cbd6;
+    margin: 0 18px auto auto;
     display: flex;
     flex-direction: column;
     width: 300px;
     padding: 1rem;
-    justify-content:space-evenly;
-    align-content: flex-start;
+    justify-content:space-around;
+    align-content: center;
     margin-right: 5%;
+   
     font-size: large;
       
 }
-
+.sign-up input {
+    font-size: 16px;
+    padding: 4px;
+    
+    border-radius: 16px;
+    margin: 0.5em 0;
+}
+.sign-up button {
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: center;
+    padding: 5px;
+    /* font-size: 1em; */
+   
+}
 
 
 .search input {
-    width: 300px;
+    width: 260px;
     /* height: 30px; */
     font-size: 16px;
     border-radius: 30px;
+    padding-left: 1rem;
+    margin-right: 3px;
 
 }
 
@@ -101,10 +135,8 @@ ul {
     padding: 2rem 0 0 0;
 
 }
-input {
-    font-size: 16px;
-    padding: 3px;
-}
+
+
 
 /* 
 .items h2 {
