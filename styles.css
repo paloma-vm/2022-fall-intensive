@@ -7,9 +7,12 @@ body {
 main {
     background-color: white;
     padding-bottom: 50px;
-
 }
 
+.user-input-area {
+    display: flex;
+    align-content: center;
+}
 header {
     height: 300px;
     /* background-color: white; */
@@ -85,6 +88,27 @@ ul {
 }
 /* use comma to style both p and h2 at once */
 
+.poll {
+    background-color: #dae2d3;
+    margin: 0 18px auto auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 1rem;
+    justify-content:space-around;
+    align-content: center;
+    margin-left: 5%; 
+    font-size: medium;     
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.poll button {
+    width: 60px; 
+    padding: 5px; 
+}
 .sign-up {
     background-color: #c1cbd6;
     margin: 0 18px auto auto;
@@ -94,9 +118,8 @@ ul {
     padding: 1rem;
     justify-content:space-around;
     align-content: center;
-    margin-right: 5%;
-   
-    font-size: large;
+    margin-right: 5%; 
+    font-size: medium;
       
 }
 .sign-up input {
@@ -112,9 +135,7 @@ ul {
     flex-direction: row;
     align-self: flex-end;
     justify-content: center;
-    padding: 5px;
-    /* font-size: 1em; */
-   
+    padding: 5px; 
 }
 
 
@@ -135,14 +156,6 @@ ul {
     padding: 2rem 0 0 0;
 
 }
-
-
-
-/* 
-.items h2 {
-    
-} */
-
-/* .a {
-    image
-} */
+a { 
+    text-decoration: none;
+}

@@ -17,7 +17,7 @@
                 </button>               
             </div>
         </nav>
-        <h1>Page Title</h1>
+        <h1>Paul Doerr: Zodiac Killer?</h1>
     </header>
     <main>
         <div class="wrapper">
@@ -26,25 +26,34 @@
                 <!-- see script -->
             </div>
         </div>
-        <div class="sign-up">
-            <h3>Sign up for updates</h3>
-            <label for="name">Name:</label>
-            <input id="name" type="text" placeholder=" name"/>
-            <label for="email">Email:</label>
-            <input id="email" type="email" placeholder=" email"/>
-            <button>Send</button>
-        </div>
-        <div class="poll">
-            <h3>Do you think Paul Doerr was the Zodiac?</h3>
-            <p>Vote here:</p>   
-            
-            <input type="radio" id="yes" name="choice" value="yes">
-            <label for="yes">yes</label>
-            <input type="radio" id="no" name="choice" value="no">
-            <label for="no">no</label>
-            <input type="radio" id="maybe" name="choice" value="maybe">
-            <label for="maybe">maybe</label>
-            <button>Submit</button>
+        <div class="user-input-area">
+            <div class="poll">
+                <h3>Do you think Paul Doerr was the Zodiac?</h3>
+                <p>Vote here:</p> 
+                <form>  
+                    <label for="yes">
+                    <input type="radio" id="yes" name="choice" value="yes">
+                    yes
+                    </label>
+                    <label for="no">
+                    <input type="radio" id="no" name="choice" value="no">
+                    no
+                    </label>
+                    <label for="maybe">
+                    <input type="radio" id="maybe" name="choice" value="maybe">
+                    maybe</label>
+                    <button id="vote-button">Submit</button>
+                </form>
+                <p id="message"></p>
+            </div>
+            <div class="sign-up">
+                <h3>Sign up for updates</h3>
+                <label for="name">Name:</label>
+                <input id="name" type="text" placeholder=" name"/>
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder=" email"/>
+                <button>Send</button>
+            </div>
         </div>
     </main>
     <footer>
