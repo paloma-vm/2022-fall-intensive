@@ -75,7 +75,8 @@ ul {
     /* justify-content: space-between; */
     list-style-type: none;
     /* justify-content: space-between; */
-    gap: 50px;   
+    gap: 50px;  
+    
 }
 
 .items img {
@@ -154,8 +155,11 @@ form {
     justify-content: flex-end;
     margin-right: 40px;
     padding: 2rem 0 0 0;
-
 }
-a { 
-    text-decoration: none;
+a {  
+    color: black; 
+}
+
+a:hover {
+    background-color: #a7c5bd;   
 }
